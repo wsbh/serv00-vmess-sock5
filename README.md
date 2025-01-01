@@ -3,12 +3,15 @@
 本项目二改于yutian81的项目 [仓库地址](https://github.com/yutian81/serv00-ct8-ssh/)，新增多重保活方式。
 
 <mark>最新三重保险保活方式！<mark>
+（2025年1月1日更新的方法）
 
 我的 内部+内部+外部 原理是这样的
 
 serv00 专门的添加cron任务的任务每分钟执行添加所有cron任务（同时也顺面把这个专门添加cron任务的任务给添加上去了）
 
 如果Cron任务很不幸，全被杀进程了，那么最多4个小时以后GitHub Action保活 会添加全部Cron任务以保证节点活着
+
+保活只需要按照博客里的教程搭建节点并且使用GitHub保活即可享受三重保活！稳定！稳定！稳定！
 
 ## [博客看详细使用教程](https://blog.qmsdh.com/index.php/archives/35/)
 
