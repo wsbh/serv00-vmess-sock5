@@ -40,9 +40,9 @@ elif [ -e "${WORKDIR}/argo.sh" ]; then
   NEW_CRONTAB+="@reboot pkill -kill -u $(whoami) && cd ${WORKDIR} && ${CRON_ARGO}\n"
   NEW_CRONTAB+="*/10 * * * * pgrep -x \"bot\" > /dev/null || cd ${WORKDIR} && ${CRON_ARGO}\n"
 elif [ -e "${WORKDIR}/web" ]; then
-  green "正在添加 保活脚本 的 crontab 重启任务"
-  NEW_CRONTAB+="bash sb00.sh || 5 \n"
-  NEW_CRONTAB+="* * * * * pgrep -x \"web\" > /dev/null || cd ${WORKDIR} && ${CRON_SB}"
+  green "正在添加 singbox 的 crontab 重启任务"
+  NEW_CRONTAB+="@reboot pkill -kill -u $(whoami) cd ${WORKDIR} && ${CRON_SB}\n"
+  NEW_CRONTAB+="* * * * * bash sb00.sh || 5 \n"
 fi
 
 # 将 crontab 任务更新一次性添加
