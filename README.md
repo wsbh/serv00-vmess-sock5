@@ -2,11 +2,13 @@
 
 本项目二改于yutian81的项目 [仓库地址](https://github.com/yutian81/serv00-ct8-ssh/)，新增多重保活方式。
 
-我的 <mark>内部+内部+外部<mark> 原理是这样的
+<mark>
+我的 内部+内部+外部 原理是这样的
 
-serv00 <mark>专门的添加cron任务<mark的任务每分钟执行<mark>添加所有cron任务<mark>（同时也顺面把这个专门添加cron任务的任务给添加上去了）
+serv00 专门的添加cron任务的任务每分钟执行添加所有cron任务（同时也顺面把这个专门添加cron任务的任务给添加上去了）
 
-如果<mark>Cron任务<mark>很不幸，全死了，那么最多4个小时以后GitHub <mark>Action保活<mark> 会添加<mark>全部Cron任务<mark>以保证节点活着
+如果Cron任务很不幸，全被杀进程了，那么最多4个小时以后GitHub Action保活 会添加全部Cron任务以保证节点活着
+<mark>
 
 ## [博客看详细使用教程](https://blog.qmsdh.com/index.php/archives/35/)
 
