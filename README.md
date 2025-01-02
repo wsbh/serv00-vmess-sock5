@@ -33,13 +33,13 @@ serv00 专门的添加cron任务的任务每分钟执行添加所有cron任务�
 
 ----
 
-## yutian81魔改四合一脚本，适用于serv00 & ct8，含vmess|vmess+argo|hy2|socks5|nezha
+## 魔改四合一脚本，适用于serv00 & ct8，含vmess|vmess+argo|hy2|socks5|nezha
 
 - **四合一安装脚本，需要交互式输入**
 ```
 curl -s https://raw.githubusercontent.com/qmsdh/serv00-vmess-sock5/main/sb_serv00_socks.sh -o sb00.sh && bash sb00.sh  
 ```
-![主菜单截图](https://fastly.jsdelivr.net/gh/yutian81/yutian81.github.io@master/assets/images/17258552404381725855239743.png)
+![主菜单截图](https://raw.githubusercontent.com/qmsdh/serv00-vmess-sock5/refs/heads/main/sh.png)
 
 - 也可以支持老王的无交互安装
 例如（注意大小写）：  
