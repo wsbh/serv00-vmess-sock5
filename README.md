@@ -1,6 +1,6 @@
 # 项目说明
 
-本项目二改于yutian81的项目 [仓库地址](https://github.com/yutian81/serv00-ct8-ssh/)，新增多重保活方式。
+本项目二改于yutian81的项目 [仓库地址](https://github.com/yutian81/serv00-ct8-ssh/)，和 老王的四合一项目[仓库地址](https://github.com/eooce/Sing-box)，新增多重保活方式。
 
 <mark>最新三重保险保活方式！<mark>
 （2025年1月1日更新的方法）
