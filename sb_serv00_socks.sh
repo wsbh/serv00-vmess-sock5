@@ -657,9 +657,9 @@ EOF
 menu() {
    clear
    echo ""
-   purple "--- Serv00|ct8 yutian81魔改sing-box一键脚本 ---\n"
+   purple "--- Serv00|ct8 qmsdh.com三改，yutian81二改 sing-box一键脚本 ---\n"
    echo -e "${green}原作者为老王：${re}${yellow}https://github.com/eooce/Sing-box${re}\n"
-   echo -e "${green}由 秋名山 qmsdh.com 存档，yutian81魔改：${re}${yellow}https://github.com/yutian81/serv00-ct8-ssh${re}\n"
+   echo -e "${green}由 秋名山 qmsdh.com 三改，yutian81二改：${re}${yellow}https://github.com/yutian81/serv00-ct8-ssh${re}\n"
    purple "转载请著名出处，请勿滥用\n"
    red "1. 安装sing-box"
    echo  "----------------"
